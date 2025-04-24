@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(150deg, #5b1099, #a200ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 15px;
+}
+
+.firstWords {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.firstWords p {
+    font-weight: 600;
+    color: rgb(213 212 210);
+}
+
+/* espaço para o estilo do slider */
+
+.ourMusics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.ourMusics p {
+    font-weight: 600;
+    color: rgba(255 255 255 / 95%);
+}
+
+.musics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.musics li {
+    font-weight: 480;
+    color: rgb(213 212 210);
+}
+
+.musics li:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: #2a034b;
+}
+
+.lastWords {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.lastWords p {
+    font-weight: 600;
+    color: rgb(213 212 210);
+}
